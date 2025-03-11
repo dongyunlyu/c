@@ -1,0 +1,47 @@
+#include <stdio.h>
+
+int main()
+{
+	/*printf("%s\n", "영덕초등학교");
+	printf("%d 학년 %d 반 %s\n", 6,7,"류동윤");
+	printf("혈액형 : %c형\n",'O');
+	printf("키 : %.1fcm \n",154.5);
+	printf("시력 : %d/%.1f \n",1,0.9);
+	
+	printf("나의 혈액형은 %d입니다.\n", 'A');
+	 
+	printf("%d년 %d월 알파고 승리\n", 2019,3);
+	printf("%d%c 프린터로 집 짓기\n", 3, 'D');
+	printf("원주율 : %.2f \n", 3.14);
+	printf("%.3fkm 마라톤\n", 42.195);
+	
+	int grade;
+	int room;
+	int number;
+	
+	grade = 6;
+	room = 7;
+	number = 8;
+	
+	printf("%d학년 %d반 %d번\n", grade,room,number);
+	
+	int year,day,month,hour,second,min;
+	int width;
+	int height;
+	float area;
+	year = 2025;
+	day = 11;
+	month = 3;
+	hour = 6;
+	min = 30;
+	second = 20;
+	width = 3;
+	height = 4;
+	printf("오늘은 %d년 %d월 %d일입니다. \n", year,month,day);
+	printf("지금 시간은 %d시 %d분%d초입니다.\n", hour,min,second);
+	printf("삼각형의 넓이는 %d㎠입니다.\n", width * height / 2);
+	int num;
+	scanf("%d",&num);
+	printf("입력하신 번호는 %d입니다 \n",num);*/
+	
+} 
