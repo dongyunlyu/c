@@ -1,0 +1,158 @@
+#include <stdio.h>
+
+int main()
+{
+	/*int n = 10;
+	
+	while(n<=17)
+	{
+		printf("%d ", n);
+		n++;
+	}
+	printf("\nwhile문 종료 후 n의 값 : %d\n", n);
+	
+	int n = 20;
+	
+	while(n<=15)
+	{
+		printf("%d ", n);
+		n--;
+	}
+	printf("\nwhile문 종료 후 n의 값 : %d\n", n);
+	
+	int i;
+	i = 11;
+	do{
+		printf("%d ", i);
+		i++;
+	}while(i<=10);
+	
+	int i = 0;
+	
+	while (i < 10)
+	{
+		printf("i의 값 : %d\n",i);
+		i++;
+		if (i == 5)
+		{
+			break;
+		}
+	}
+	
+	int i = 0;
+	
+	while(i<10)
+	{
+		if (i == 5)
+		{
+			i++;
+			continue;
+		}
+		printf("i의 값 : %d\n", i);
+		i++;
+	}
+
+	int i = 10000;
+	int n = 0;
+	
+	while(1)
+	{
+		int x;
+		scanf("%d",&x);
+		i = i - x;
+		n++;
+		printf("%d %d\n", i, n);
+		
+		if(i<=0)
+		{
+			break;
+		}
+	}
+	
+	int n;
+	int i = 1;
+	scanf("%d", &n);
+	while(i<=n)
+	{
+		if(i%2==0)
+		{
+			printf("-1 ");
+		}
+		else
+		{
+			printf("1 ");
+		}
+		i++;	
+	}
+	
+	int n;
+	int i = 1;
+	scanf("%d", &n);
+	while(i<=n)
+	{
+			printf("10 ");
+		i++;
+	}
+	
+	int k;
+	int i = 1;
+	int n;
+	
+	k = 1;
+	
+	scanf("%d", &n);
+	
+	while(1)
+	{
+		printf("%2d ", i);
+		i = i * -1;
+		k++;
+		if(k>n)
+			break;
+	}
+	
+	printf("\n");
+	
+	k = 1;
+	
+	while(1)
+	{
+		printf("%2d ", k%2);
+		k++;
+		if(k>n)
+			break;
+	}
+	printf("\n");
+	
+	k = 1;
+	i = 1;
+	
+	while(1)
+	{
+		printf("%2d ", i * k);
+		i = i * -1;
+		k++;
+		if(k>n)
+			break;
+	}
+	printf("\n");
+	
+	int n,ans= 0,sum= 0;
+	scanf("%d", &n);
+	
+	while(1)
+	{
+		ans = ans + n % 10;
+		sum = sum + n % 10;
+		n = n / 10;
+		
+		if(n==0)
+			break;
+			
+		ans= ans * 10;
+	}
+	
+	printf("%d, sum=%d",ans, sum);*/
+	
+	return 0;
+}
