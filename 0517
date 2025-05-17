@@ -1,0 +1,102 @@
+#include <stdio.h>
+int main()
+{
+	/*int n;
+	n = 2;
+	switch(3)
+	{
+		case 0:
+			printf("영입니다.");
+			break;
+		case 1:
+			printf("일입니다.");
+			break;
+		case 2:
+			printf("이입니다.");
+			break;
+		case 3:
+			printf("삼입니다.");
+			break;
+		default:
+			printf("X\n");
+			break;
+	}
+	
+	int a;
+	printf("당신의 나이를 입력하세요 :");
+	scanf("%d",&a);
+	switch(a/10)
+	{
+		case 0:
+			printf("유소년입니다.");
+			break;
+		case 1:
+			printf("청소년입니다.");
+			break;
+		case 2:
+		case 3: 
+			printf("청년입니다.");
+			break;
+		case 4:
+		case 5:
+			printf("중년입니다.");
+			break;
+		case 6:
+			printf("장년입니다.");
+			break;
+		case 7:
+			printf("노년입니다.");
+			break;
+		case 8:
+		case 9:
+			printf("도전백세입니다.");
+			break;
+		default:
+			printf("성공 백세입니다.\n");
+			break;
+	}
+	
+	int n, sum = 0, max = 0, min = 100;
+	double avg = 0;
+	scanf("%d", &n);
+	for(int i = 0; i<n; i++)
+	{
+		int score;
+		scanf("%d",&score);
+		sum = sum + score;
+		if(score>max)
+			max= score;
+		if(score<min)
+			min = score;
+	}
+	
+	printf("max = %d\n", max);
+	printf("min = %d\n", min);
+	printf("sum = %d\n", sum/n);
+	printf("avg = %.2lf\n", 1.0 * sum / n);
+	
+	
+	int cnt=0, sum = 0, max = 0, min = 100;
+	double avg = 0;
+	while(1)
+	{
+		int score;
+		scanf("%d", &score);
+		
+		if(score<0)
+			break;
+		
+		sum = sum + score;
+		cnt++;
+		
+		if(score>max)
+			max = score;
+	}
+	
+	printf("max = %d\n", max);
+	printf("min = %d\n", min);
+	printf("sum = %d\n", sum/cnt);
+	printf("avg = %.2lf\n", 1.0 * sum / cnt);	
+	*/
+	return 0;
+}
