@@ -1,0 +1,75 @@
+#include <stdio.h>
+
+/*void add(int* num1, int* num2)
+{
+	*num1 = *num1 + 10;
+	*num2 = *num2 + 10;
+	
+}*/
+
+int main()
+{
+	/*char ch = 'A';
+	
+	char * pch;
+	pch = &ch;
+	
+	printf("%p\n", pch);
+	
+	printf("%c\n", *pch);
+	
+
+	int number1 = 5;
+	int number2 = 10;
+	
+	add(&number1, &number2);
+	
+	printf("number1 = %d\n", number1);
+	printf("number2 = %d\n", number2);
+	
+	int score[] = {90,95,85,100,90};
+	
+	for(int i=0; i<5; i++)
+		printf("%d ", score[i]);
+	printf("\n");
+	for(int i = 0; i<sizeof(score)/sizeof(int); i++)
+		printf("%d ", *(score+i));
+	printf("\n");
+
+	int ar[3][4] = {{1,2,3,4}, {5,6,7,8}, {9,10,11,12}};
+	
+	for (int i = 0; i < 3; i++)
+	{
+		for(int j = 0; j < 4; j++)
+		{
+			printf("%2d ", ar[i][j]);
+		}
+		printf("\n");
+	}
+	
+	int ar[3][4] = {{1,2,3,4}, {5,6,7,8}, {9,10,11,12}};
+	
+	for (int i = 0; i < 3; i++)
+	{
+		for(int j = 0; j < 4; j++)
+		{
+			printf("%2d ", ar[i][j]);
+		}
+		printf("\n");
+	}
+	
+	printf("\n");
+	
+	int *par;
+	par = ar[0];
+	
+	for(int i = 0; i < sizeof(ar) / sizeof(int); i++)
+	{
+		printf("%2d ", *(par+i));
+		
+		if((i+1)%4==0)
+			printf("\n");
+	}*/
+
+	return 0;
+}
