@@ -1,0 +1,83 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+	/*int a, b, c;
+	
+	scanf("%d", &a);
+	printf("a = %d\n", &a, &b);
+	scanf("%d%d", &a, &b);
+	printf("a = %d b = %d\n", a, b);
+	scanf("%d%d%d", &a, &b, &c);
+	printf("a = %d b = %d c = %d\n", a, b, c);
+	
+	char ch;
+	
+	scanf("%c", &ch);
+	printf("%c %d", ch,ch);
+	
+	int a;
+	char b;
+	
+	scanf("%d", &a);
+	getchar();
+	scanf("%c", &b);
+	printf("%d %c", a, b);
+	
+	char str1[15], str2[15];
+	
+	scanf("%s", str1);
+	printf("str1 = %s\n", str1);
+	scanf("%s%s", str1, str2);
+	printf("str1 = %s\n", str1);
+	printf("str2 = %s\n", str2);
+	
+	char str[80];
+	
+	gets(str);
+	printf("%s\n", str);
+	
+	char ch;
+	
+	ch = getche();
+	printf("\nch = %d : %c\n", ch, ch);
+	putchar(ch);
+	 
+	int n = 0;
+	
+	while(1)
+	{
+		printf("%d%c", n, '\r');
+		n++;	
+	}
+	
+	char ch;
+	
+	while(1)
+	{
+		scanf("%c",&ch);
+		if(ch=='\n')
+			break;
+			
+		printf("%c", ch);	
+				
+	}
+	
+	char ch;
+	
+	while(1)
+	{
+		scanf("%c",&ch);
+		if(ch=='\n')
+			break;
+			
+		if(('A'<=ch && ch<= 'Z'))		
+			printf("%c", ch+32);
+		
+		else if('a'<=ch && ch<= 'z')
+			printf("%c", ch-32);	
+	}*/ 
+	 
+	return 0;
+}
